@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const About = () => {
   return (
     <>
@@ -23,6 +25,7 @@ const About = () => {
           eye for structure and detail, and I'm excited to combine that with
           design and technology.
         </div>
+        <Button />
       </div>
     </>
   );

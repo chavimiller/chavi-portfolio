@@ -1,6 +1,6 @@
 :root {
-  --background: #414535;
-  --foreground: #F2E3BC;
+  --background: #eff4e7;
+  --foreground: #565c4c;
   --max-content-width: 1280px;
   --page-padding: 2rem;
 }
@@ -42,7 +42,7 @@ h1 {
 
 .container {
   max-width: var(--max-content-width);
-  margin: 0 auto;
+  margin: 0 8rem;
   padding: 0 var(--page-padding);
 }
 
@@ -52,12 +52,14 @@ h1 {
 
 .title {
   font-family: "Yanone";
-  font-size: 8rem;
+  font-size: 6rem;
+  padding-top: 7rem;
 }
 
 .bio {
   padding: .5rem;
   font-size: 1.2rem;
+  max-width: 800px;
 }
 
 .intro-container {
