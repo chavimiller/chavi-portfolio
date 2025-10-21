@@ -64,6 +64,7 @@ h1 {
   color: var(--background);
 }
 
+
 .title {
   font-family: "Yanone";
   font-size: 6rem;
@@ -119,3 +120,57 @@ h1 {
   color: var(--secondary-green);
   border-color: var(--secondary-green);  
 }
+
+.projects-heading {
+  color: var(--accent);
+  font-family: "Yanone";
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+
+.cards-frame {
+  display: flex;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.stack-container {
+  display: flex;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.project-desc {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.project-section {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-section hr {
+  background-color: var(--foreground);
+  border: 0; 
+  height: 1px;
+  margin: 1.2rem 0;
+}
+
