@@ -43,6 +43,11 @@ h1 {
   font-weight: inherit;
 }
 
+svg {
+  height: 70px;
+  width: 70px;
+}
+
 .container {
   max-width: var(--max-content-width);
   margin: 0 10rem;
@@ -50,7 +55,7 @@ h1 {
 }
 
 .section {
-  padding: 2rem 0;
+  padding: 2rem 0 ;
 }
 
 .about-section {
@@ -103,7 +108,7 @@ h1 {
   display: flex;
   padding: .7rem 2rem;
   width: fit-content;
-  border: solid 2px;
+  border: solid 3px;
   font-weight: 400;
   font-size: 1.6rem;
   border-radius: .2rem;
@@ -174,3 +179,38 @@ h1 {
   margin: 1.2rem 0;
 }
 
+.contact-container {
+  display: flex;
+  background-color: var(--foreground);
+  height: 32vh;
+  color: var(--background);
+  align-items: center;
+
+}
+
+.two-columns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.contact-ls {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-rs {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.contact-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.contact-email {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
