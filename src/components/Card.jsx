@@ -24,7 +24,6 @@ const Card = ({ title, desc, stack, demoBtn, viewBtn }) => {
           <Button text={"Live demo"} onClick={demoBtn} style={"btn btn-3"} />
           <Button text={"View code"} onClick={viewBtn} />
         </div>
-        <hr />
       </div>
     </>
   );

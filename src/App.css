@@ -146,6 +146,7 @@ svg {
   display: flex;
   flex-direction: column;
   gap: .8rem;
+  padding: 2rem 0;
 }
 
 .cards-frame {
@@ -238,4 +239,19 @@ svg {
 .stack-container img {
   width: 40px;
   height: 40px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.6rem;
+  font-family: "Yanone";
+  color: var(--accent);
+  padding-top: 3.5rem;
+  gap: 3rem;
+}
+
+.navbar-container div {
+  cursor: pointer;
 }

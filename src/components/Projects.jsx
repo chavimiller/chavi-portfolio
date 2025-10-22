@@ -6,6 +6,7 @@ import HtmlIcon from "../assets/icons/Html.svg";
 import JSIcon from "../assets/icons/Javascript.svg";
 import WebpackIcon from "../assets/icons/Webpack.svg";
 import ReactIcon from "../assets/icons/React.svg";
+import { version } from "react";
 
 const Projects = () => {
   const projectList = [
@@ -66,15 +67,18 @@ const Projects = () => {
         <div className="project-section">
           <div className="section container">
             <div className="projects-heading">Projects</div>
-            {projectList.map((project) => (
-              <Card
-                key={project.key}
-                title={project.title}
-                desc={project.desc}
-                stack={project.stack}
-                demoBtn={project.demoLink}
-                viewBtn={project.codeLink}
-              />
+            {projectList.map((project, index) => (
+              <div key={project.key}>
+                <Card
+                  key={project.key}
+                  title={project.title}
+                  desc={project.desc}
+                  stack={project.stack}
+                  demoBtn={project.demoLink}
+                  viewBtn={project.codeLink}
+                />
+                {index !== projectList.length - 1 && <hr />}
+              </div>
             ))}
           </div>
         </div>
