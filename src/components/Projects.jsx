@@ -1,4 +1,9 @@
 import Card from "./Card";
+import CssIcon from "../assets/icons/Css.svg";
+import HtmlIcon from "../assets/icons/Html.svg";
+import JSIcon from "../assets/icons/Javascript.svg";
+import WebpackIcon from "../assets/icons/Webpack.svg";
+import ReactIcon from "../assets/icons/React.svg";
 
 const Projects = () => {
   const projectList = [
@@ -7,9 +12,9 @@ const Projects = () => {
       title: "Calculator",
       desc: "This app is a basic calculator which does basic calculations, built with vanilla JS, CSS, and HTML",
       stack: [
-        { name: "JavaScript", symbol: "" },
-        { name: "HTML", symbol: "" },
-        { name: "CSS", symbol: "" },
+        { name: "JavaScript", symbol: JSIcon },
+        { name: "HTML", symbol: HtmlIcon },
+        { name: "CSS", symbol: CssIcon },
       ],
       demoLink: "errorPage",
       codeLink: "errorPage",
