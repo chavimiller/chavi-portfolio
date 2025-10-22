@@ -10,7 +10,11 @@ const Card = ({ title, desc, stack, demoBtn, viewBtn }) => {
         <div className="stack-container">
           {stack.map((option, index) => (
             <div className="stack-item" key={index}>
-              <div className="stack-symbol">{option.symbol}</div>
+              <img
+                src={option.symbol}
+                alt="icon"
+                className="stack-symbol"
+              ></img>
               <div className="stack-name">{option.name}</div>
             </div>
           ))}

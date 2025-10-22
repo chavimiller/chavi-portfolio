@@ -15,7 +15,7 @@ const About = () => {
           <Button text={"About me"} style={"btn btn-1"} />
         </div>
       </div>
-      <div className="section about-section">
+      <div className="about-section">
         <div className="section container">
           <div className="about-me-title">About Me</div>
           <div className="about-me-text">

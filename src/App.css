@@ -55,13 +55,12 @@ svg {
 }
 
 .section {
-  padding: 2rem 0;
+  padding: 2rem 10rem;
 }
 
 .about-section {
   background-color: var(--accent);
   height: 90vh;
-  padding: 3rem 10rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -146,7 +145,7 @@ svg {
 .card-container {
   display: flex;
   flex-direction: column;
-  gap: .6rem;
+  gap: .8rem;
 }
 
 .cards-frame {
@@ -159,16 +158,10 @@ svg {
   gap: 1rem;
 }
 
-.stack-container {
-  display: flex;
-}
-
 .project-title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 400;
-  text-align: center;
   display: flex;
-  justify-content: center;
 }
 
 .project-desc {
@@ -225,4 +218,24 @@ svg {
 .contact-email {
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+.stack-item {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+
+.stack-container {
+  display: flex;
+  gap: 2rem;
+  padding: .3rem 0;
+}
+
+.stack-container img {
+  width: 40px;
+  height: 40px;
 }
