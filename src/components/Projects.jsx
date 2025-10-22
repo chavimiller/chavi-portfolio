@@ -1,4 +1,6 @@
 import Card from "./Card";
+import { Element } from "react-scroll";
+
 import CssIcon from "../assets/icons/Css.svg";
 import HtmlIcon from "../assets/icons/Html.svg";
 import JSIcon from "../assets/icons/Javascript.svg";
@@ -60,21 +62,23 @@ const Projects = () => {
   ];
   return (
     <>
-      <div className="project-section">
-        <div className="section container">
-          <div className="projects-heading">Projects</div>
-          {projectList.map((project) => (
-            <Card
-              key={project.key}
-              title={project.title}
-              desc={project.desc}
-              stack={project.stack}
-              demoBtn={project.demoLink}
-              viewBtn={project.codeLink}
-            />
-          ))}
+      <Element name="portfolio">
+        <div className="project-section">
+          <div className="section container">
+            <div className="projects-heading">Projects</div>
+            {projectList.map((project) => (
+              <Card
+                key={project.key}
+                title={project.title}
+                desc={project.desc}
+                stack={project.stack}
+                demoBtn={project.demoLink}
+                viewBtn={project.codeLink}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </Element>
     </>
   );
 };

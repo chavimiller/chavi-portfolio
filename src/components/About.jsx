@@ -33,7 +33,9 @@ const About = () => {
               detail, and I'm excited to combine that with design and
               technology.
             </div>
-            <Button text={"Portfolio"} style={"btn btn-2"} />
+            <Link to="portfolio" smooth={true} duration={500}>
+              <Button text={"Portfolio"} style={"btn btn-2"} />
+            </Link>
           </div>
         </div>
       </Element>
