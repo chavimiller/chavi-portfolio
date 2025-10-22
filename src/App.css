@@ -50,12 +50,12 @@ svg {
 
 .container {
   max-width: var(--max-content-width);
-  margin: 0 10rem;
+  margin: 0 auto;
   padding: 0 var(--page-padding);
 }
 
 .section {
-  padding: 2rem 0 ;
+  padding: 2rem 0;
 }
 
 .about-section {
@@ -126,6 +126,15 @@ svg {
   border-color: var(--secondary-green);  
 }
 
+.btn-3 {
+  padding: .3rem 1rem;
+  border: solid 2px;
+  font-size: 1rem;
+  margin: 1rem 0;
+  color: var(--secondary-green);
+  border-color: var(--secondary-green);  
+}
+
 .projects-heading {
   color: var(--accent);
   font-family: "Yanone";
@@ -146,6 +155,8 @@ svg {
 
 .buttons-container {
   display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .stack-container {
@@ -170,6 +181,7 @@ svg {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .project-section hr {

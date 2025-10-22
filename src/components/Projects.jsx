@@ -6,15 +6,19 @@ const Projects = () => {
       key: 1,
       title: "Calculator",
       desc: "This app is a basic calculator which does basic calculations, built with vanilla JS, CSS, and HTML",
-      stack: ["JavaScript", "HTML", "CSS"],
+      stack: [
+        { name: "JavaScript", symbol: "" },
+        { name: "HTML", symbol: "" },
+        { name: "CSS", symbol: "" },
+      ],
       demoLink: "errorPage",
       codeLink: "errorPage",
     },
   ];
   return (
     <>
-      <div className="container">
-        <div className="section project-section">
+      <div className="project-section">
+        <div className="section container">
           <div className="projects-heading">Projects</div>
           {projectList.map((project) => (
             <Card
