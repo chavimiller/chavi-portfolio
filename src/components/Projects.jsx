@@ -18,8 +18,8 @@ const Projects = () => {
         { name: "React", symbol: ReactIcon },
         { name: "CSS", symbol: CssIcon },
       ],
-      demoLink: "errorPage",
-      codeLink: "errorPage",
+      demoLink: "https://coffee-website-cart.vercel.app/",
+      codeLink: "https://github.com/chavimiller/shopping-cart",
     },
     {
       key: 2,
@@ -61,6 +61,11 @@ const Projects = () => {
       codeLink: "errorPage",
     },
   ];
+
+  const openLink = (link) => {
+    window.open(link, "_blank");
+  };
+
   return (
     <>
       <Element name="portfolio">
@@ -74,8 +79,8 @@ const Projects = () => {
                   title={project.title}
                   desc={project.desc}
                   stack={project.stack}
-                  demoBtn={project.demoLink}
-                  viewBtn={project.codeLink}
+                  demoBtn={() => openLink(project.demoLink)}
+                  viewBtn={() => openLink(project.codeLink)}
                 />
                 {index !== projectList.length - 1 && <hr />}
               </div>

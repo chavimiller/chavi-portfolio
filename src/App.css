@@ -126,12 +126,18 @@ svg {
 }
 
 .btn-3 {
-  padding: .3rem 1rem;
+  padding: .5rem 2rem;
   border: solid 2px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 1rem 0;
   color: var(--secondary-green);
   border-color: var(--secondary-green);  
+}
+
+.btn-4 {
+  color: var(--secondary-pink);
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .projects-heading {
@@ -156,7 +162,7 @@ svg {
 .buttons-container {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .project-title {

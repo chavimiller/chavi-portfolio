@@ -22,7 +22,7 @@ const Card = ({ title, desc, stack, demoBtn, viewBtn }) => {
 
         <div className="buttons-container">
           <Button text={"Live demo"} onClick={demoBtn} style={"btn btn-3"} />
-          <Button text={"View code"} onClick={viewBtn} />
+          <Button text={"View code"} onClick={viewBtn} btnType="noBorder" />
         </div>
       </div>
     </>
