@@ -31,7 +31,7 @@ const Projects = () => {
         { name: "CSS", symbol: CssIcon },
       ],
       demoLink: "errorPage",
-      codeLink: "errorPage",
+      codeLink: "https://github.com/chavimiller/calculator-project",
     },
 
     {
@@ -45,7 +45,7 @@ const Projects = () => {
         { name: "Webpack", symbol: WebpackIcon },
       ],
       demoLink: "errorPage",
-      codeLink: "errorPage",
+      codeLink: "https://github.com/chavimiller/weather-app",
     },
     {
       key: 4,
@@ -58,7 +58,7 @@ const Projects = () => {
         { name: "Webpack", symbol: WebpackIcon },
       ],
       demoLink: "errorPage",
-      codeLink: "errorPage",
+      codeLink: "https://github.com/chavimiller/to-do-list",
     },
   ];
 
