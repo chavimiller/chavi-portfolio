@@ -21,3 +21,13 @@
 .navbarContainer div:active {
   transform: scale(0.94); 
 }
+
+@media (max-width: 480px) {
+
+  .navbarContainer {
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    justify-content: space-between;
+    gap: 0;
+  }
+}

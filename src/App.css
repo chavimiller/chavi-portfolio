@@ -108,7 +108,16 @@ svg {
   transform: translateY(0) scale(0.97); 
 }
 
+@media (max-width: 768px) {
+    .section {
+      padding: 1.5rem;
+    }
 
+    .container {
+    max-width: 100%;
+  }
+}
 
-
-
+@media (max-width: 480px) {
+ 
+}

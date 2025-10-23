@@ -36,8 +36,39 @@
 }
 
 .aboutMeText {
-  display: flex;
   font-size: 1.4rem;
   line-height: 1.4;
   padding: 1rem 0;
 }
+
+@media (max-width: 768px) {
+    .introContainer {
+        padding: 0;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 480px) {
+  .regText {
+    padding: 1.5rem 0;
+  }
+  .title {
+    font-size: 6rem;
+  }
+
+  .aboutSection {
+    height: fit-content;
+  }
+
+  .aboutMeTitle {
+    font-size: 3rem;
+    padding: 2rem;
+  }
+
+  .aboutMeText {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+
+
