@@ -68,7 +68,6 @@ svg {
   color: var(--background);
 }
 
-
 .title {
   font-family: "Yanone";
   font-size: 6rem;
@@ -272,4 +271,13 @@ svg {
 
 .navbar-container div {
   cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.navbar-container div:hover {
+  color: var(--foreground);
+}
+
+.navbar-container div:active {
+  transform: scale(0.94); 
 }
