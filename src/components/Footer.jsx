@@ -1,4 +1,5 @@
 import { Element } from "react-scroll";
+import styles from "./Footer.module.css";
 
 const Footer = () => {
   const userName = "chaviweisman";
@@ -15,7 +16,7 @@ const Footer = () => {
               <div className="contact-email">{email}</div>
             </div>
             <div className="contact-rs">
-              <div className="github">
+              <div>
                 <a href="https://github.com/chavimiller" target="_blank">
                   <svg viewBox="0 0 128 128">
                     <g fill="#EFEBCE">
@@ -29,7 +30,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </div>
-              <div className="linkedin">
+              <div>
                 <a
                   href="https://www.linkedin.com/in/chavi-weisman-miller-443442221/"
                   target="_blank"

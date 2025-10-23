@@ -1,4 +1,5 @@
 import Button from "./Button";
+import styles from "./Card.module.css";
 
 const Card = ({ title, desc, stack, demoBtn, viewBtn }) => {
   return (
@@ -10,11 +11,7 @@ const Card = ({ title, desc, stack, demoBtn, viewBtn }) => {
         <div className="stack-container">
           {stack.map((option, index) => (
             <div className="stack-item" key={index}>
-              <img
-                src={option.symbol}
-                alt="icon"
-                className="stack-symbol"
-              ></img>
+              <img src={option.symbol} alt="icon"></img>
               <div className="stack-name">{option.name}</div>
             </div>
           ))}

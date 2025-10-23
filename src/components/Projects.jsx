@@ -1,12 +1,13 @@
 import Card from "./Card";
 import { Element } from "react-scroll";
 
+import styles from "./Projects.module.css";
+
 import CssIcon from "../assets/icons/Css.svg";
 import HtmlIcon from "../assets/icons/Html.svg";
 import JSIcon from "../assets/icons/Javascript.svg";
 import WebpackIcon from "../assets/icons/Webpack.svg";
 import ReactIcon from "../assets/icons/React.svg";
-import { version } from "react";
 
 const Projects = () => {
   const projectList = [

@@ -1,8 +1,10 @@
 import { Link, Element } from "react-scroll";
 
+import styles from "./NavBar.module.css";
+
 const NavBar = () => {
   return (
-    <div className="container navbar-container">
+    <div className={`container ${styles.navbarContainer}`}>
       <Link to="aboutSection" smooth={true} duration={800}>
         <div>ABOUT</div>
       </Link>
