@@ -9,13 +9,13 @@ const Footer = () => {
   return (
     <>
       <Element name="contact">
-        <div className="contact-container">
-          <div className="section container two-columns">
-            <div className="contact-ls">
-              <div className="contact-name">Chavi Weisman-Miller</div>
-              <div className="contact-email">{email}</div>
+        <div className={styles.contactContainer}>
+          <div className={`section container ${styles.twoColumns}`}>
+            <div className={styles.contactLS}>
+              <div className={styles.contactName}>Chavi Weisman-Miller</div>
+              <div className={styles.contactEmail}>{email}</div>
             </div>
-            <div className="contact-rs">
+            <div className={styles.contactRS}>
               <div>
                 <a href="https://github.com/chavimiller" target="_blank">
                   <svg viewBox="0 0 128 128">

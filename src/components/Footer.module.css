@@ -1,0 +1,37 @@
+
+.contactContainer {
+  display: flex;
+  background-color: var(--foreground);
+  height: 25vh;
+  color: var(--background);
+  align-items: center;
+}
+
+.twoColumns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.contactLS {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contactName {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.contactEmail {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.contactRS {
+  display: flex;
+  gap: 2.4rem;
+}
+
+
