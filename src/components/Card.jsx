@@ -4,20 +4,20 @@ import styles from "./Card.module.css";
 const Card = ({ title, desc, stack, demoBtn, viewBtn }) => {
   return (
     <>
-      <div className="card-container">
-        <div className="project-title">{title}</div>
-        <div className="project-desc">{desc}</div>
+      <div className={styles.cardContainer}>
+        <div className={styles.projectTitle}>{title}</div>
+        <div className={styles.projectDesc}>{desc}</div>
 
-        <div className="stack-container">
+        <div className={styles.stackContainer}>
           {stack.map((option, index) => (
-            <div className="stack-item" key={index}>
+            <div className={styles.stackItem} key={index}>
               <img src={option.symbol} alt="icon"></img>
-              <div className="stack-name">{option.name}</div>
+              <div>{option.name}</div>
             </div>
           ))}
         </div>
 
-        <div className="buttons-container">
+        <div className={styles.buttonsContainer}>
           <Button text={"Live demo"} onClick={demoBtn} style={"btn btn-3"} />
           <Button text={"View code"} onClick={viewBtn} btnType="noBorder" />
         </div>
