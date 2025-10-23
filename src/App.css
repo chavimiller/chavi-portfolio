@@ -60,7 +60,7 @@ svg {
 
 .about-section {
   background-color: var(--accent);
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -92,13 +92,14 @@ svg {
   justify-content: center;
   font-family: "Yanone";
   font-size: 4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .about-me-text {
   display: flex;
   font-size: 1.4rem;
-  line-height: 1.5;
+  line-height: 1.4;
+  padding: 1rem 0;
 }
 
 .btn {
