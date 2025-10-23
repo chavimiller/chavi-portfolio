@@ -117,7 +117,7 @@ svg {
 
 .btn-1 {
   color: var(--secondary-pink);
-  border-color: var(--secondary-pink);  
+  border-color: var(--secondary-pink); 
 }
 
 .btn-2 {
@@ -138,6 +138,18 @@ svg {
   color: var(--secondary-pink);
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+.btn, .btn-3, .btn-4 {
+  transition: transform 0.2s ease;
+}
+
+.btn:hover, .btn-3:hover, .btn-4:hover {
+  transform: translateY(-3px);
+}
+
+.btn:active, .btn-3:active, .btn-4:active {
+  transform: translateY(0) scale(0.97); 
 }
 
 .projects-heading {
