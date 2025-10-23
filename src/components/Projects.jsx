@@ -70,9 +70,9 @@ const Projects = () => {
   return (
     <>
       <Element name="portfolio">
-        <div className="project-section">
+        <div className={styles.projectSection}>
           <div className="section container">
-            <div className="projects-heading">Projects</div>
+            <div className={styles.projectsHeading}>Projects</div>
             {projectList.map((project, index) => (
               <div key={project.key}>
                 <Card

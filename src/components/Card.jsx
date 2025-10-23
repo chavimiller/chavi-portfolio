@@ -19,7 +19,7 @@ const Card = ({ title, desc, stack, demoBtn, viewBtn }) => {
 
         <div className={styles.buttonsContainer}>
           <Button text={"Live demo"} onClick={demoBtn} style={"btn btn-3"} />
-          <Button text={"View code"} onClick={viewBtn} btnType="noBorder" />
+          <Button text={"View code"} onClick={viewBtn} style={"btn-4"} />
         </div>
       </div>
     </>

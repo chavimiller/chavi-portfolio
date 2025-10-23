@@ -108,66 +108,7 @@ svg {
   transform: translateY(0) scale(0.97); 
 }
 
-.projects-heading {
-  color: var(--accent);
-  font-family: "Yanone";
-  font-size: 4rem;
-  padding-bottom: 2rem;
-  text-align: center;
-}
-
-.cards-frame {
-  display: flex;
-}
 
 
-.project-section {
-  min-height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.project-section hr {
-  background-color: var(--foreground);
-  border: 0; 
-  height: 1px;
-  margin: 1.2rem 0;
-}
 
-.contact-container {
-  display: flex;
-  background-color: var(--foreground);
-  height: 32vh;
-  color: var(--background);
-  align-items: center;
-
-}
-
-.two-columns {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
-
-.contact-ls {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.contact-rs {
-  display: flex;
-  gap: 2.4rem;
-}
-
-.contact-name {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.contact-email {
-  font-size: 1.1rem;
-  font-weight: 300;
-}

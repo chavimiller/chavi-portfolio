@@ -1,10 +1,4 @@
-const Button = ({ onClick, text, style, btnType = "default" }) => {
-  if (btnType === "noBorder")
-    return (
-      <div onClick={onClick} className={"btn-4"}>
-        {text}
-      </div>
-    );
+const Button = ({ onClick, text, style }) => {
   return (
     <div onClick={onClick} className={style}>
       {text}

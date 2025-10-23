@@ -1,0 +1,22 @@
+.projectSection {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectSection hr {
+  background-color: var(--foreground);
+  border: 0; 
+  height: 1px;
+  margin: 1.2rem 0;
+}
+
+.projectsHeading {
+  color: var(--accent);
+  font-family: "Yanone";
+  font-size: 4rem;
+  padding: 4rem 0 1rem 0;
+  text-align: center;
+}
