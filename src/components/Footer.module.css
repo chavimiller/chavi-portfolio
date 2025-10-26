@@ -36,8 +36,18 @@
 
 @media (max-width: 480px) {
 
+    .contactContainer {
+        height: fit-content;
+    }
+
+    .twoColumns {
+        flex-direction: column;
+        gap: 1.2rem;
+        align-items: center;
+    }
     .contactLS {
         gap: .5rem;
+        text-align: center;
     }
 
     .contactName {
@@ -46,10 +56,6 @@
 
     .contactEmail {
         font-size: 1rem;
-    }
-
-    .contactRS {
-        gap: 1.6rem;
     }
 
     .contactRS svg {
