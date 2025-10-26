@@ -40,3 +40,23 @@
   align-items: center;
   gap: 3rem;
 }
+
+@media (max-width: 480px) {
+
+  .cardContainer {
+    height: fit-content;
+    width: fit-content;
+ }
+
+  .projectTitle {
+    font-size: 1.6rem;
+  }
+
+  .projectDesc {
+    font-size: 1.1rem;
+  }
+
+  .stackContainer {
+    flex-wrap: wrap;
+  }
+}
