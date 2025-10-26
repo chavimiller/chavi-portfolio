@@ -31,7 +31,7 @@ const Projects = () => {
         { name: "HTML", symbol: HtmlIcon },
         { name: "CSS", symbol: CssIcon },
       ],
-      demoLink: "errorPage",
+      demoLink: "https://chavimiller.github.io/calculator-project/",
       codeLink: "https://github.com/chavimiller/calculator-project",
     },
 
@@ -45,7 +45,7 @@ const Projects = () => {
         { name: "CSS", symbol: CssIcon },
         { name: "Webpack", symbol: WebpackIcon },
       ],
-      demoLink: "errorPage",
+      demoLink: "https://chavimiller.github.io/weather-app/",
       codeLink: "https://github.com/chavimiller/weather-app",
     },
     {
@@ -58,7 +58,7 @@ const Projects = () => {
         { name: "CSS", symbol: CssIcon },
         { name: "Webpack", symbol: WebpackIcon },
       ],
-      demoLink: "errorPage",
+      demoLink: "https://chavimiller.github.io/to-do-list/",
       codeLink: "https://github.com/chavimiller/to-do-list",
     },
   ];
