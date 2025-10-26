@@ -34,4 +34,26 @@
   gap: 2.4rem;
 }
 
+@media (max-width: 480px) {
 
+    .contactLS {
+        gap: .5rem;
+    }
+
+    .contactName {
+        font-size: 1.4rem;
+    }
+
+    .contactEmail {
+        font-size: 1rem;
+    }
+
+    .contactRS {
+        gap: 1.6rem;
+    }
+
+    .contactRS svg {
+        width: 60px;
+        height: 60px;
+    }
+}
