@@ -2,7 +2,8 @@
 .contactContainer {
   display: flex;
   background-color: var(--foreground);
-  height: 25vh;
+  height: fit-content;
+  padding: 2rem 0;
   color: var(--background);
   align-items: center;
 }

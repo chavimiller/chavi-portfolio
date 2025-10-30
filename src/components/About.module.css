@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   padding: 6rem 0;
-  height: 70vh;
+  height: fit-content;
 }
 
 .regText {
@@ -19,7 +19,7 @@
 
 .aboutSection {
   background-color: var(--accent);
-  height: 100vh;
+  height: fit-content;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -42,10 +42,10 @@
 }
 
 @media (max-width: 768px) {
-    .introContainer {
-        padding: 0;
-        height: fit-content;
-    }
+  .introContainer {
+      padding: 0;
+      height: fit-content;
+  }
 }
 
 @media (max-width: 480px) {

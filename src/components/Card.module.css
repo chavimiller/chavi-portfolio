@@ -14,17 +14,21 @@
 .projectDesc {
   font-size: 1.2rem;
   font-weight: 300;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .stackContainer {
   display: flex;
   gap: 2rem;
   padding: .3rem 0;
+  flex-wrap: wrap;
 }
 
 .stackContainer img {
   width: 40px;
   height: 40px;
+  
 }
 
 .stackItem {

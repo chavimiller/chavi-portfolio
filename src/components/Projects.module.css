@@ -21,6 +21,12 @@
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .projectSection {
+    height: fit-content;
+  }
+}
+
 @media (max-width: 480px) {
     .projectSection {
         height: fit-content;

@@ -109,15 +109,21 @@ svg {
 }
 
 @media (max-width: 768px) {
-    .section {
-      padding: 1.5rem;
-    }
-
-    .container {
-    max-width: 100%;
+  .section {
+    padding: 4rem;
   }
+
+  .container {
+    max-width: 100%;
+  } 
 }
 
 @media (max-width: 480px) {
- 
+ .section {
+    padding: 1.5rem;
+  }
+
+  .container {
+    max-width: 100%;
+  } 
 }
